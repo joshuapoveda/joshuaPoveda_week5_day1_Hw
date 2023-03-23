@@ -85,4 +85,6 @@ topMenuEl.onclick = function (event) {
   topMenuLinks.classList.remove("active");
 
   target.classList.add("active");
+
+  console.log('TEST')
 };
